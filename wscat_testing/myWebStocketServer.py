@@ -23,7 +23,7 @@ import websocket
 
 
 # client websocket
-auth = {"action": "authenticate","data": {"key_id": "PK60WBWPGUO9U16V26OK", "secret_key": "FxLtFhpGHOTZJPoU0AELZxXTYYGeScYeokvMoFCS"}}
+auth = {"action": "authenticate","data": {"key_id": "", "secret_key": ""}}
 
 alpacaSocket = "wss://data.alpaca.markets/stream"
 
