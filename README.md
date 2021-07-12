@@ -8,3 +8,4 @@ The app uses Push.js to send push notifications and Chart.js to display a line g
 
 I was planning on adding a real backend using gRPC but browser compatability with gRPC was very finicky so I went with web sockets instead using python and the Alpaca stocks API.
 
+https://javiair.github.io/StockMe/
