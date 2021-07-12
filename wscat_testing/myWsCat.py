@@ -3,7 +3,7 @@ PK60WBWPGUO9U16V26OK
 
 FxLtFhpGHOTZJPoU0AELZxXTYYGeScYeokvMoFCS
 
-{"action": "authenticate","data": {"key_id": "PK60WBWPGUO9U16V26OK", "secret_key": "FxLtFhpGHOTZJPoU0AELZxXTYYGeScYeokvMoFCS"}}
+{"action": "authenticate","data": {"key_id": "", "secret_key": ""}}
 
 {"action": "listen", "data": {"streams": ["AM.TSLA"]}}
 {"action": "listen", "data": {"streams": ["AM.AAPL"]}}
