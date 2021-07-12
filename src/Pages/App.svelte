@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Tailwind from "./Tailwind.svelte";
-	import Header from './HeaderFooter/Header.svelte';
-	import Footer from './HeaderFooter/Footer.svelte';
-	import Charts from './Chart.svelte';
-	import SearchR from './SearchReddit.svelte';
+	import Tailwind from "../Tailwind.svelte";
+	import Header from '../HeaderFooter/Header.svelte';
+	import Footer from '../HeaderFooter/Footer.svelte';
+	import Charts from '../Chart.svelte';
+	import SearchR from '../Components/SearchReddit.svelte';
 	export let name: String;
 
 </script>

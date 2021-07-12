@@ -144,9 +144,9 @@ let NotifyAudio = new Audio('audio/eventuallyNotifSFX.mp3');
   <button on:click={()=>{notifyThreshold = 5; notifiedText = 'Notified';}}>
     {notifiedText}
   </button>
-  <button class="rounded-full bg-green-600">
+  <!-- <button class="rounded-full bg-green-600">
     Search for GME price
-  </button> 
+  </button>  -->
    <!-- <button on:click={addData} class="rounded-full bg-green-600">
     Search for GME price
   </button> -->
