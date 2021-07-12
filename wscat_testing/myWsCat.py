@@ -1,7 +1,4 @@
 
-PK60WBWPGUO9U16V26OK
-
-FxLtFhpGHOTZJPoU0AELZxXTYYGeScYeokvMoFCS
 
 {"action": "authenticate","data": {"key_id": "", "secret_key": ""}}
 
