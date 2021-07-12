@@ -1,6 +1,6 @@
 <script lang="ts">
 let varRes = [];//[{name: "abc"},{name: "def"}];
-const response = fetch('http://www.reddit.com/r/wallstreetbets/.json?&limit=3')
+const response = fetch('https://www.reddit.com/r/wallstreetbets/.json?&limit=3')
             .then(res => res.json())
             .then(data => data.data.children.map(data => data.data));
 
@@ -13,7 +13,7 @@ function goToPost(abc: string) {
     window.location.href = abc;
 }
 
-let NotifyAudio = new Audio('/audio/singleButtonKeyboardshort1.mp3');
+let NotifyAudio = new Audio('audio/singleButtonKeyboardshort1.mp3');
 
 </script>
 
@@ -38,7 +38,7 @@ let NotifyAudio = new Audio('/audio/singleButtonKeyboardshort1.mp3');
     <span class="fas fa-comments"></span>
     <div class="flex-col p-1">
       <span class="fas fa-comments font-semibold text-gray-700"></span>
-      <img src="/images/pokeBall16x16icon.png" alt="arrow_r" class="w-4 h-4 rounded-full order-1">
+      <img src="images/pokeBall16x16icon.png" alt="arrow_r" class="w-4 h-4 rounded-full order-1">
     </div>
   </div>
   {/each}

@@ -96,7 +96,7 @@ function addData(chart: Chart, newStockPrice: number) {
         
         Push.create("StockMe Notification", {
             body: notificationBody,
-            icon: '/images/pika32x32icon.png',
+            icon: 'images/pika32x32icon.png',
             timeout: 3000,
             onClick: function () {
                 window.focus();
@@ -117,7 +117,7 @@ setInterval(addData, 2000);
 
 let notifyThreshold: Number;
 let notifiedText: string = "Notify me at $5";
-let NotifyAudio = new Audio('/audio/eventuallyNotifSFX.mp3');
+let NotifyAudio = new Audio('audio/eventuallyNotifSFX.mp3');
 
 
 </script>
